@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang='en'>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css2?family=Proxima+Nova' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Outfit' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,300" rel="stylesheet" type="text/css">
+    
+    <title></title>
+    
+    <!-- <link rel="icon" href="tab-icon.png"> -->
+  </head>
+
+<style>
+  .nav-item {
+    font-family: 'Proxima Nova',system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(255, 145, 85);
+    font-size: large;
+  }
+
+  .social {
+    margin: 10px;
+    fill: lightsalmon;
+  }
+
+
+  .head-text{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+
+
+
+  .headline {
+  font-family: 'Outfit', 'Open Sans', 'Times New Roman', Times, serif;
+  font-size: 60px;
+  font-style: heavy;
+  font-weight: normal;
+  letter-spacing: normal;
+  line-height: 72.15625px;
+  color: white;
+  }
+
+  .deck {
+    font-family: 'Outfit','Open Sans', 'Times New Roman', Times, serif;
+    font-size: 25px;
+    line-height: 30px;
+    /* margin-left: 150px;
+    margin-right: 150px; */
+  }
+
+  .byline {
+    font-family:  sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: normal;
+    line-height: 18px;
+    color: #6f6e6e;
+    margin-top: 80px;
+
+    /* margin-left: 150px;
+    margin-right: 150px; */
+  }
+
+  .datetime {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: normal;
+    line-height: 16px;
+    color: #757474;
+    margin-bottom: 2 px;
+    /* margin-left: 150px;
+    margin-right: 150px; */
+  }
+
+  .content {
+    font-family: 'Open Sans', 'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+    font-size: 18px;
+    font-style: light;
+    font-weight: light;
+    letter-spacing: normal;
+    line-height: 30px;
+    color: #4e4d4d;
+    margin-top: 30px;
+    margin-bottom: 2 px;
+    /* margin-left: 150px;
+    margin-right: 150px; */
+  }
+
+  .data-diary{
+    color:#757474;
+  }
+
+  .banner{
+    position: relative;
+    width: 100%;
+    text-align: center;
+  }
+
+  .banner.image{
+    opacity: 95%;
+    border: 0px;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    object-fit: cover;
+    /* filter: blur(4px); */
+}
+
+  }
+  
+  a:hover {
+   opacity:  70%;
+  }
+
+  a:link {
+    color:rgb(241, 147, 109);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+  a {
+      color:rgb(241, 147, 109) ;
+  }
+
+  p{
+    margin-top:5px;
+  }
+
+  h5{
+    color: rgb(6, 5, 5);
+  }
+
+  .footer {
+    margin-top: 150px; 
+    margin-bottom: 100px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(103, 103, 103);
+  }
+
+  figcaption {
+    font-family: 'Open Sans', 'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+    font-size: 12px;
+    font-style: light;
+    font-weight: light;
+    letter-spacing: normal;
+    line-height: 20px;
+    color: #838282;
+    margin-top: 2px
+
+  }
+  .image-container {
+  width: 200%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+
+</style>
+
+  <body>
+    <!-- This is my nav bar -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top text-white" style="background: linear-gradient(to bottom, rgba(9, 9, 9, 0.791), rgba(0,0,0,0) 100%)">
+      <div class="collapse navbar-collapse"  id="navbarsExampleDefault" style="margin-left: 10px">
+        <a class="navbar-brand" href="https://xinyitu.github.io/" target="_blank">
+          <!-- <img src="../tab-icon.png" width="30" height="30" class="d-inline-block align-top" style="margin-left: 5%;" alt="homepage"> -->
+        </a>
+        <!-- <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a> -->
+            <!-- </div> -->
+          <!-- </li>
+        </ul> -->
+      </div>
+    </nav> 
+
+    <!-- Feature photo here -->
+    <!-- This is my headline --> 
+    <div class="banner">
+      <img class ="banner image" src="tesladataprojectfinalfinal.png " >
+      <div class="head-text">
+        <p class="headline"><strong>Bearish To Bullish In Three Months. How Legacy Financial News Covered Tesla? </strong></p>
+        <p class="deck">Reuters, WallStreet Journal and Financial Times together totaled over 1800 reports on Tesla in three months. </p>
+      </div>
+    </div>
+
+    <!-- This is the byline -->
+    <div class="container-fluid">
+        <div class="row byline justify-content-center">
+            <div class="col-9">
+                <p>By Vivek Patil</p>
+            </div>
+        </div>
+    </div>
+
+      <!-- This is the time stamp -->
+      <div class="container-fluid">
+        <div class="row datetime justify-content-center">
+            <div class="col-9">
+                <p>February 19, 2023</p>
+            </div>
+        </div>
+    </div>
+    <!-- This is my content -->
+    <div class="container-fluid">
+        <div class="row content justify-content-center">
+            <div class="col-6">
+                <br>
+                <p>Tesla, the car manufacturing company, is in the news for two reasons - its outspoken, hard tweeting boss - Elon Musk and the high volatility of its stock price. It's not uncommon for Tesla to experience fluctuations in its price over short periods of time. 
+
+                </p>
+                <p>The remarkable volatility of its price is influenced primarily by what expert investors think about Tesla and then followed by what regular investors think about expert investors. This is a complex interplay of opinions and actions as regular investors tend to follow the waves of the common sentiment around the stock price. Financial News Companies who cover the company and its market shape the sentiment as they are the first to report on breaking news, company development and trends. 
+                </p>
+              
+            </div>  
+            
+        </div>
+        <div class="row content justify-content-center">
+            <div class="col-7">
+              <iframe title="Tesla's Closing Price for last three months" aria-label="Interactive line chart" id="datawrapper-chart-ecFoE" src="https://datawrapper.dwcdn.net/ecFoE/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="415" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+              </script>
+</script>
+                <br>
+                <br>
+                <p>
+                  Financial News Companies who cover the company and its market shape the sentiment as they are the first to report on breaking news, company development and trends. The coverage of its stock price can strengthen as well as weaken the investor confidence and can majorly influence the investment decisions. 
+                  </p>
+                <p>For the purpose of our Analysis, we look at how Reuters, (one of the leading News wire agencies who cover markets), WallStreet Journal ( news organization with a huge investor readership) and Financial times ( an international news company based in London, also with business readers) covered Tesla in the last three months.
+                <br>
+                </p>
+                <iframe title="Number of Headlines Published On Telsa In Three Months " aria-label="Range Plot" id="datawrapper-chart-cQe4i" src="https://datawrapper.dwcdn.net/cQe4i/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="215" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+                </script>
+                <br>
+                <br>
+                <p>Understandably, Reuters being a global news wire agency, published over 1155 news reports on Tesla in the last three months. This reflects the significant impact that Tesla has had on the financial news cycle and its relevance to the investors.</p>
+                <p>
+                  The financial news cycle is as volatile as the stock market as the average news article per day. The constant flow of financial information and company development demands these legacy news companies to publish reports daily on Tesla. 
+                  </p>
+              
+                </div>
+                  <p>
+                    <div class="col-7">
+                    Reuters had an average publishing count of over 12 articles per day, Wall street Journal with 5 articles per day and Financial Times averaged with 3 articles per day.
+                    </p>
+                    <br>
+              
+                    <iframe title="Reuter's News Cycle on Telsa for every day for last three months " aria-label="Interactive line chart" id="datawrapper-chart-aidhd" src="https://datawrapper.dwcdn.net/aidhd/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="347" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+                    </script>
+                <br>
+                <br>
+               <p>The last week of January was the busiest for all three news companies as the maximum number of articles published in a day falls in this week. While Reuters published their highest count of 39 articles on 26th January, WallStreet Journal published 17 on 25th January and Financial Times their highest of 10 articles on 26th January.
+               </p> 
+                
+                <iframe title="WSJ's News Cycle on Tesla for every day for last three months" aria-label="Interactive line chart" id="datawrapper-chart-TCMgV" src="https://datawrapper.dwcdn.net/TCMgV/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="313" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+              </script> </div>
+              <br><br>
+            
+
+              <div class="col-7">
+               <p> We can see that all these three companies reported in simailar fashion. They reported on the bullish phase more than the bearish phase.</p>
+                <iframe title="Financial Times News Cycle on Tesla for every day for last three months" aria-label="Interactive line chart" id="datawrapper-chart-wJzTV" src="https://datawrapper.dwcdn.net/wJzTV/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="324" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+                </script>
+                <br> <br>
+                <h2><b>So What happened to Tesla during the last Week of January?</b></h2>
+                 <br>
+                 <div class="image-container">
+                  <img src="Blank 8 Grids Collage.png" alt="Image description">
+                </div>
+                
+
+                <br><br>
+                
+                <br>
+                
+              <p>This was the week when Tesla announced its Q4 earning results, beating analyst expectations. The company reported earnings of 1.19 $ per share, which exceeded the predictions of 1.13$ per share. In that week, Tesla also reported that they generated a revenue of $24.32 billion, surpassing the predicted $24.16 billion, a 33% increase from the same quarter last year.
+              </p>
+                <br>
+                <p class="data-diary"><em><a href="">Learn more</a> about the data analysis in this story.</em></p>
+            </div>
+        </div>
+    </div>
+
+  
+    <!-- This is my footer -->
+    <footer class="footer">
+      <div class="container text-center" >
+        <div class="row justify-content-center">
+          <div class="col-md-3 text-center">
+            <div>Vivek Patil<br>Data Journalist</div>
+          </div>
+      
+          <div class="col-md-3 text-center">
+          
+            <div>vrp2124@columbia.edu</div>
+          </div>
+          <div class="col-md-3 text-center">
+            <address>New York, New York<br>10027</address>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
