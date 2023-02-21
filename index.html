@@ -16,8 +16,7 @@
 
 <style>
   .nav-item {
-    font-family: 'Proxima Nova',system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: rgb(255, 145, 85);
+    font-family: 'Heebo', sans-serif;
     font-size: large;
   }
 
@@ -38,7 +37,7 @@
 
 
   .headline {
-  font-family: 'Outfit', 'Open Sans', 'Times New Roman', Times, serif;
+  font-family: 'Heebo', sans-serif;
   font-size: 60px;
   font-style: heavy;
   font-weight: normal;
@@ -48,7 +47,7 @@
   }
 
   .deck {
-    font-family: 'Outfit','Open Sans', 'Times New Roman', Times, serif;
+    font-family: 'Heebo', sans-serif;
     font-size: 25px;
     line-height: 30px;
     /* margin-left: 150px;
@@ -56,13 +55,13 @@
   }
 
   .byline {
-    font-family:  sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+    font-family: 'Heebo', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: normal;
     letter-spacing: normal;
     line-height: 18px;
-    color: #6f6e6e;
+    color: whitesmoke;
     margin-top: 80px;
 
     /* margin-left: 150px;
@@ -70,7 +69,7 @@
   }
 
   .datetime {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+    font-family: 'Heebo', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: normal;
@@ -83,13 +82,13 @@
   }
 
   .content {
-    font-family: 'Open Sans', 'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+    font-family: ''Open Sans', 'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
     font-size: 18px;
     font-style: light;
     font-weight: light;
     letter-spacing: normal;
     line-height: 30px;
-    color: #4e4d4d;
+    color: white;
     margin-top: 30px;
     margin-bottom: 2 px;
     /* margin-left: 150px;
@@ -97,7 +96,7 @@
   }
 
   .data-diary{
-    color:#757474;
+    color:whitesmoke;
   }
 
   .banner{
@@ -169,14 +168,20 @@
   width: 100%;
   height: auto;
 }
-
+.background-color {
+  background-color: #323d4d  ;
+}
 
 </style>
 
-  <body>
+  <body class="background-color">
     <!-- This is my nav bar -->
-
-       
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top text-white" style="background: linear-gradient(to bottom, rgba(9, 9, 9, 0.791), rgba(0,0,0,0) 100%)">
+      <div class="collapse navbar-collapse"  id="navbarsExampleDefault" style="margin-left: 10px">
+        <a class="navbar-brand" href="https://xinyitu.github.io/" target="_blank">
+          <!-- <img src="../tab-icon.png" width="30" height="30" class="d-inline-block align-top" style="margin-left: 5%;" alt="homepage"> -->
+        </a>
+        <!-- <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
             <div class="dropdown-menu" aria-labelledby="dropdown01">
               <a class="dropdown-item" href="#">Action</a>
@@ -188,7 +193,8 @@
       </div>
     </nav> 
 
-   
+    <!-- Feature photo here -->
+    <!-- This is my headline --> 
     <div class="banner">
       <img class ="banner image" src="tesladataprojectfinalfinal.png " >
       <div class="head-text">
@@ -288,7 +294,7 @@
               <p>This was the week when Tesla announced its Q4 earning results, beating analyst expectations. The company reported earnings of 1.19 $ per share, which exceeded the predictions of 1.13$ per share. In that week, Tesla also reported that they generated a revenue of $24.32 billion, surpassing the predicted $24.16 billion, a 33% increase from the same quarter last year.
               </p>
                 <br>
-                <p class="data-diary"><em><a href="">Learn more</a> about the data analysis in this story.</em></p>
+                <p class="data-diary"><em><a href="https://github.com/Vivek1799/Financial-News-companies-scraped-for-tesla">Learn more</a> about the data analysis in this story.</em></p>
             </div>
         </div>
     </div>
